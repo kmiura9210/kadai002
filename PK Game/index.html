@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>PKゲーム</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>PK Game</h1>
+        <p>サッカーのPKをシミュレートできる、アプリです。<br>日本代表がPKに強くなれるよう頑張りましょう</p>
+
+        <h2>あなた：</h2>
+        <p class="turn">オフェンスです、シュートする方向を選んでください</p>
+        <h3>選んだ場所</h3>
+
+        <div class="courseSelect">
+            <div class="left">
+                <button class="high-left">左上</button>
+                <button class="low-left">左下</button>
+            </div>
+            <div class="center">
+                <button class="high-center">上</button>
+                <button class="low-center">下</button>
+            </div>
+            <div class="right">
+                <button class="high-right">右上</button>
+                <button class="low-right">右下</button>
+            </div>
+        </div>
+
+        <p class="selectedPlace">未選択</p>
+
+        <button class="shootOrBlock" disabled>シュート</button>
+        <h2>結果</h2>
+        <h3 class='opponentSelect'>キーパーが飛んだ方向</h3>
+        <p class="keeperPosition"><br></p>
+        <h3>成否</h3>
+        <p class="result"><br></p>
+
+        <button class="next" disabled>攻守交代</button>
+
+        <table id="kekka">
+            <tr>
+                <th>あなた</th>
+                <td class="1"></td>
+                <td class="3"></td>
+                <td class="5"></td>
+                <td class="7"></td>
+                <td class="9"></td>
+            </tr>
+            <tr>
+                <th>COM</th>
+                <td class="2"></td>
+                <td class="4"></td>
+                <td class="6"></td>
+                <td class="8"></td>
+                <td class="10"></td>
+            </tr>
+        </table>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="./JS/pk.js"></script>
+    </div>
+</body>
+
+</html>

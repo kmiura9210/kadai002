@@ -1,0 +1,41 @@
+.wrap{
+    width: 600px;
+    background-color: rgb(121, 189, 121);
+    margin: auto;
+}
+
+.low-right, .high-right, .low-center, .high-center, .low-left, .high-left{
+    width: 60px;
+    margin: 20px;
+}
+
+.courseSelect{
+    height: 200px;
+    width: 600px;
+    background-image: url(/img/goalIllust.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .center, .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}
+
+td, th{
+    border: 2px #808080 solid;
+    padding: 30px; 
+}
+
+table{
+    margin-top: 30px;
+}
