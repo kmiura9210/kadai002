@@ -74,8 +74,8 @@ $('.shootOrBlock').on('click', function () {
         // オフェンスのとき
         // 判定処理
 
-        // var placeNumber = Math.floor(Math.random() * 6)
-        var placeNumber = 0
+        var placeNumber = Math.floor(Math.random() * 6)
+        // var placeNumber = 0
         console.log(placeNumber, 'シュートする位置変換前')
 
         var place
@@ -117,8 +117,8 @@ $('.shootOrBlock').on('click', function () {
         // ディフェンスのとき
         // 判定処理
 
-        // var placeNumber = Math.floor(Math.random() * 6)
-        var placeNumber = 0
+        var placeNumber = Math.floor(Math.random() * 6)
+        // var placeNumber = 0
         console.log(placeNumber, 'シュートする位置変換前')
 
         var place
